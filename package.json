@@ -1,0 +1,23 @@
+{
+  "name": "data-tree",
+  "version": "1.0.0",
+  "description": "require data from directory.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Shin Fujisawa",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "chai": "^3.4.0",
+    "js-yaml": "^3.4.3"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "mkdirp": "^0.5.1"
+  }
+}
